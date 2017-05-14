@@ -7,21 +7,163 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9095E7921EB8E589000DACF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7911EB8E589000DACF8 /* AppDelegate.swift */; };
-		9095E7941EB8E589000DACF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7931EB8E589000DACF8 /* ViewController.swift */; };
-		9095E7971EB8E589000DACF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7951EB8E589000DACF8 /* Main.storyboard */; };
+		340F0D171F0969FD8D596A82 /* Pods_EasterDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CB18BA735ED2EBCF4AC899 /* Pods_EasterDate.framework */; };
 		9095E7991EB8E589000DACF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7981EB8E589000DACF8 /* Assets.xcassets */; };
-		9095E79C1EB8E589000DACF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9095E79A1EB8E589000DACF8 /* LaunchScreen.storyboard */; };
+		9095E7A91EB8E6E5000DACF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7A71EB8E6E5000DACF8 /* AppDelegate.swift */; };
+		9095E7B41EB8E72F000DACF8 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7AE1EB8E72F000DACF8 /* icon-76.png */; };
+		9095E7B51EB8E72F000DACF8 /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7AF1EB8E72F000DACF8 /* icon-76@2x.png */; };
+		9095E7B61EB8E72F000DACF8 /* icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7B01EB8E72F000DACF8 /* icon-83.5@2x.png */; };
+		9095E7B71EB8E72F000DACF8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7B11EB8E72F000DACF8 /* icon.png */; };
+		9095E7B81EB8E72F000DACF8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7B21EB8E72F000DACF8 /* icon@2x.png */; };
+		9095E7B91EB8E72F000DACF8 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7B31EB8E72F000DACF8 /* icon@3x.png */; };
+		9095E7CA1EB8E73C000DACF8 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7BA1EB8E73C000DACF8 /* back.png */; };
+		9095E7CB1EB8E73C000DACF8 /* facebook_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7BB1EB8E73C000DACF8 /* facebook_badge.png */; };
+		9095E7CC1EB8E73C000DACF8 /* facebook_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7BC1EB8E73C000DACF8 /* facebook_badge@2x.png */; };
+		9095E7CD1EB8E73C000DACF8 /* github_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7BD1EB8E73C000DACF8 /* github_badge.png */; };
+		9095E7CE1EB8E73C000DACF8 /* github_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7BE1EB8E73C000DACF8 /* github_badge@2x.png */; };
+		9095E7CF1EB8E73C000DACF8 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7BF1EB8E73C000DACF8 /* info.png */; };
+		9095E7D01EB8E73C000DACF8 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C01EB8E73C000DACF8 /* info@2x.png */; };
+		9095E7D11EB8E73C000DACF8 /* linkedin_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C11EB8E73C000DACF8 /* linkedin_badge.png */; };
+		9095E7D21EB8E73C000DACF8 /* linkedin_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C21EB8E73C000DACF8 /* linkedin_badge@2x.png */; };
+		9095E7D31EB8E73C000DACF8 /* mail_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C31EB8E73C000DACF8 /* mail_badge.png */; };
+		9095E7D41EB8E73C000DACF8 /* mail_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C41EB8E73C000DACF8 /* mail_badge@2x.png */; };
+		9095E7D51EB8E73C000DACF8 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C51EB8E73C000DACF8 /* main.png */; };
+		9095E7D61EB8E73C000DACF8 /* main@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C61EB8E73C000DACF8 /* main@2x.png */; };
+		9095E7D71EB8E73C000DACF8 /* skype_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C71EB8E73C000DACF8 /* skype_badge.png */; };
+		9095E7D81EB8E73C000DACF8 /* skype_badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C81EB8E73C000DACF8 /* skype_badge@2x.png */; };
+		9095E7D91EB8E73C000DACF8 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7C91EB8E73C000DACF8 /* splash.png */; };
+		9095E7EA1EB8E7BF000DACF8 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7E71EB8E7BF000DACF8 /* DRPLoadingSpinner.m */; };
+		9095E7EB1EB8E7BF000DACF8 /* DRPRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7E91EB8E7BF000DACF8 /* DRPRefreshControl.m */; };
+		9095E7EE1EB8E7D1000DACF8 /* ACFloatingTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7ED1EB8E7D1000DACF8 /* ACFloatingTextField.m */; };
+		9095E7F41EB8E865000DACF8 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7F11EB8E865000DACF8 /* TPKeyboardAvoidingScrollView.m */; };
+		9095E7F51EB8E865000DACF8 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7F31EB8E865000DACF8 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		9095E7F81EB8E872000DACF8 /* KSToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9095E7F71EB8E872000DACF8 /* KSToastView.m */; };
+		9095E8011EB8E8FE000DACF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9095E7FF1EB8E8FE000DACF8 /* Main.storyboard */; };
+		9095E80F1EB8E91C000DACF8 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8031EB8E91C000DACF8 /* Roboto-Black.ttf */; };
+		9095E8101EB8E91C000DACF8 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8041EB8E91C000DACF8 /* Roboto-BlackItalic.ttf */; };
+		9095E8111EB8E91C000DACF8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8051EB8E91C000DACF8 /* Roboto-Bold.ttf */; };
+		9095E8121EB8E91C000DACF8 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8061EB8E91C000DACF8 /* Roboto-BoldItalic.ttf */; };
+		9095E8131EB8E91C000DACF8 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8071EB8E91C000DACF8 /* Roboto-Italic.ttf */; };
+		9095E8141EB8E91C000DACF8 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8081EB8E91C000DACF8 /* Roboto-Light.ttf */; };
+		9095E8151EB8E91C000DACF8 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8091EB8E91C000DACF8 /* Roboto-LightItalic.ttf */; };
+		9095E8161EB8E91C000DACF8 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E80A1EB8E91C000DACF8 /* Roboto-Medium.ttf */; };
+		9095E8171EB8E91C000DACF8 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E80B1EB8E91C000DACF8 /* Roboto-MediumItalic.ttf */; };
+		9095E8181EB8E91C000DACF8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E80C1EB8E91C000DACF8 /* Roboto-Regular.ttf */; };
+		9095E8191EB8E91C000DACF8 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E80D1EB8E91C000DACF8 /* Roboto-Thin.ttf */; };
+		9095E81A1EB8E91C000DACF8 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9095E80E1EB8E91C000DACF8 /* Roboto-ThinItalic.ttf */; };
+		9095E81D1EB8E926000DACF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9095E81B1EB8E926000DACF8 /* Info.plist */; };
+		9095E8231EB8E9A3000DACF8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9095E8251EB8E9A3000DACF8 /* Localizable.strings */; };
+		9095E82C1EB8EAA3000DACF8 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095E82B1EB8EAA3000DACF8 /* libxml2.2.tbd */; };
+		9095E82E1EB8EAA9000DACF8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095E82D1EB8EAA9000DACF8 /* MessageUI.framework */; };
+		9095E8301EB8EAAF000DACF8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095E82F1EB8EAAF000DACF8 /* SystemConfiguration.framework */; };
+		9095E8321EB8EABF000DACF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095E8311EB8EABF000DACF8 /* UIKit.framework */; };
+		9095E8341EB8EAC5000DACF8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9095E8331EB8EAC5000DACF8 /* QuartzCore.framework */; };
+		9095E8361EB8EDE4000DACF8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095E8351EB8EDE4000DACF8 /* Utilities.swift */; };
+		90A38B271EC88E72009F9A61 /* AlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A38B261EC88E72009F9A61 /* AlgorithmController.swift */; };
+		90C54C561EBE14EE00D3CE24 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C551EBE14EE00D3CE24 /* Colors.swift */; };
+		90C54C581EBE163300D3CE24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C571EBE163300D3CE24 /* Constants.swift */; };
+		90C54C5A1EBE170900D3CE24 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C591EBE170900D3CE24 /* Enums.swift */; };
+		90C54C691EBF596A00D3CE24 /* AlgorithmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C651EBF596A00D3CE24 /* AlgorithmController.xib */; };
+		90C54C6A1EBF596A00D3CE24 /* InfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C661EBF596A00D3CE24 /* InfoController.xib */; };
+		90C54C6B1EBF596A00D3CE24 /* MainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C671EBF596A00D3CE24 /* MainController.xib */; };
+		90C54C6C1EBF596A00D3CE24 /* SplashController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C681EBF596A00D3CE24 /* SplashController.xib */; };
+		90C54C711EBF597600D3CE24 /* AlgorithmController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C6D1EBF597600D3CE24 /* AlgorithmController_iPad.xib */; };
+		90C54C721EBF597600D3CE24 /* InfoController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C6E1EBF597600D3CE24 /* InfoController_iPad.xib */; };
+		90C54C731EBF597600D3CE24 /* MainController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C6F1EBF597600D3CE24 /* MainController_iPad.xib */; };
+		90C54C741EBF597600D3CE24 /* SplashController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C54C701EBF597600D3CE24 /* SplashController_iPad.xib */; };
+		90C54C761EBF599C00D3CE24 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C751EBF599C00D3CE24 /* SplashController.swift */; };
+		90C54C7A1EBF5E0900D3CE24 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C791EBF5E0900D3CE24 /* Macros.swift */; };
+		90C54C7C1EBF668600D3CE24 /* Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C7B1EBF668600D3CE24 /* Xib.swift */; };
+		90C54C7E1EBF694E00D3CE24 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C7D1EBF694E00D3CE24 /* Fonts.swift */; };
+		90C54C801EBF6B4300D3CE24 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C7F1EBF6B4300D3CE24 /* MainController.swift */; };
+		90C54C821EBF6B5200D3CE24 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C811EBF6B5200D3CE24 /* InfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15CB18BA735ED2EBCF4AC899 /* Pods_EasterDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasterDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AAD289C3507099B272C883 /* Pods-EasterDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasterDate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasterDate/Pods-EasterDate.debug.xcconfig"; sourceTree = "<group>"; };
+		5E374E3660A541C845CEC7ED /* Pods-EasterDate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasterDate.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasterDate/Pods-EasterDate.release.xcconfig"; sourceTree = "<group>"; };
 		9095E78E1EB8E589000DACF8 /* EasterDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasterDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9095E7911EB8E589000DACF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9095E7931EB8E589000DACF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9095E7961EB8E589000DACF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9095E7981EB8E589000DACF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9095E79B1EB8E589000DACF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9095E79D1EB8E589000DACF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9095E7A71EB8E6E5000DACF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		9095E7AE1EB8E72F000DACF8 /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "Assets/Icons/icon-76.png"; sourceTree = "<group>"; };
+		9095E7AF1EB8E72F000DACF8 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "Assets/Icons/icon-76@2x.png"; sourceTree = "<group>"; };
+		9095E7B01EB8E72F000DACF8 /* icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-83.5@2x.png"; path = "Assets/Icons/icon-83.5@2x.png"; sourceTree = "<group>"; };
+		9095E7B11EB8E72F000DACF8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Assets/Icons/icon.png; sourceTree = "<group>"; };
+		9095E7B21EB8E72F000DACF8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Assets/Icons/icon@2x.png"; sourceTree = "<group>"; };
+		9095E7B31EB8E72F000DACF8 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@3x.png"; path = "Assets/Icons/icon@3x.png"; sourceTree = "<group>"; };
+		9095E7BA1EB8E73C000DACF8 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = Assets/Images/back.png; sourceTree = "<group>"; };
+		9095E7BB1EB8E73C000DACF8 /* facebook_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_badge.png; path = Assets/Images/facebook_badge.png; sourceTree = "<group>"; };
+		9095E7BC1EB8E73C000DACF8 /* facebook_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "facebook_badge@2x.png"; path = "Assets/Images/facebook_badge@2x.png"; sourceTree = "<group>"; };
+		9095E7BD1EB8E73C000DACF8 /* github_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = github_badge.png; path = Assets/Images/github_badge.png; sourceTree = "<group>"; };
+		9095E7BE1EB8E73C000DACF8 /* github_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "github_badge@2x.png"; path = "Assets/Images/github_badge@2x.png"; sourceTree = "<group>"; };
+		9095E7BF1EB8E73C000DACF8 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Assets/Images/info.png; sourceTree = "<group>"; };
+		9095E7C01EB8E73C000DACF8 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info@2x.png"; path = "Assets/Images/info@2x.png"; sourceTree = "<group>"; };
+		9095E7C11EB8E73C000DACF8 /* linkedin_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = linkedin_badge.png; path = Assets/Images/linkedin_badge.png; sourceTree = "<group>"; };
+		9095E7C21EB8E73C000DACF8 /* linkedin_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "linkedin_badge@2x.png"; path = "Assets/Images/linkedin_badge@2x.png"; sourceTree = "<group>"; };
+		9095E7C31EB8E73C000DACF8 /* mail_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail_badge.png; path = Assets/Images/mail_badge.png; sourceTree = "<group>"; };
+		9095E7C41EB8E73C000DACF8 /* mail_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mail_badge@2x.png"; path = "Assets/Images/mail_badge@2x.png"; sourceTree = "<group>"; };
+		9095E7C51EB8E73C000DACF8 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main.png; path = Assets/Images/main.png; sourceTree = "<group>"; };
+		9095E7C61EB8E73C000DACF8 /* main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "main@2x.png"; path = "Assets/Images/main@2x.png"; sourceTree = "<group>"; };
+		9095E7C71EB8E73C000DACF8 /* skype_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = skype_badge.png; path = Assets/Images/skype_badge.png; sourceTree = "<group>"; };
+		9095E7C81EB8E73C000DACF8 /* skype_badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "skype_badge@2x.png"; path = "Assets/Images/skype_badge@2x.png"; sourceTree = "<group>"; };
+		9095E7C91EB8E73C000DACF8 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = Assets/Images/splash.png; sourceTree = "<group>"; };
+		9095E7E61EB8E7BF000DACF8 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinner.h; path = Libraries/CustomLoading/DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		9095E7E71EB8E7BF000DACF8 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinner.m; path = Libraries/CustomLoading/DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		9095E7E81EB8E7BF000DACF8 /* DRPRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl.h; path = Libraries/CustomLoading/DRPRefreshControl.h; sourceTree = "<group>"; };
+		9095E7E91EB8E7BF000DACF8 /* DRPRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRPRefreshControl.m; path = Libraries/CustomLoading/DRPRefreshControl.m; sourceTree = "<group>"; };
+		9095E7EC1EB8E7D1000DACF8 /* ACFloatingTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACFloatingTextField.h; path = Libraries/FloatingTextField/ACFloatingTextField.h; sourceTree = "<group>"; };
+		9095E7ED1EB8E7D1000DACF8 /* ACFloatingTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACFloatingTextField.m; path = Libraries/FloatingTextField/ACFloatingTextField.m; sourceTree = "<group>"; };
+		9095E7EF1EB8E818000DACF8 /* EasterDate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasterDate-Bridging-Header.h"; sourceTree = "<group>"; };
+		9095E7F01EB8E865000DACF8 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = Libraries/KeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		9095E7F11EB8E865000DACF8 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = Libraries/KeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		9095E7F21EB8E865000DACF8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "Libraries/KeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		9095E7F31EB8E865000DACF8 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "Libraries/KeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		9095E7F61EB8E872000DACF8 /* KSToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSToastView.h; path = Libraries/KSToastView/KSToastView.h; sourceTree = "<group>"; };
+		9095E7F71EB8E872000DACF8 /* KSToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSToastView.m; path = Libraries/KSToastView/KSToastView.m; sourceTree = "<group>"; };
+		9095E8001EB8E8FE000DACF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9095E8031EB8E91C000DACF8 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "Fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		9095E8041EB8E91C000DACF8 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "Fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9095E8051EB8E91C000DACF8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "Fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		9095E8061EB8E91C000DACF8 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "Fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9095E8071EB8E91C000DACF8 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "Fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		9095E8081EB8E91C000DACF8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "Fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		9095E8091EB8E91C000DACF8 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "Fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		9095E80A1EB8E91C000DACF8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "Fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9095E80B1EB8E91C000DACF8 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "Fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9095E80C1EB8E91C000DACF8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9095E80D1EB8E91C000DACF8 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "Fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		9095E80E1EB8E91C000DACF8 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "Fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9095E81C1EB8E926000DACF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		9095E8201EB8E972000DACF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		9095E8241EB8E9A3000DACF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9095E8261EB8E9A5000DACF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9095E8271EB8E9C5000DACF8 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		9095E8291EB8E9C6000DACF8 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9095E82B1EB8EAA3000DACF8 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		9095E82D1EB8EAA9000DACF8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9095E82F1EB8EAAF000DACF8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9095E8311EB8EABF000DACF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9095E8331EB8EAC5000DACF8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9095E8351EB8EDE4000DACF8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = Helper/Utilities.swift; sourceTree = "<group>"; };
+		90A38B261EC88E72009F9A61 /* AlgorithmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgorithmController.swift; path = Classes/AlgorithmController.swift; sourceTree = "<group>"; };
+		90C54C551EBE14EE00D3CE24 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = Headers/Colors.swift; sourceTree = "<group>"; };
+		90C54C571EBE163300D3CE24 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Headers/Constants.swift; sourceTree = "<group>"; };
+		90C54C591EBE170900D3CE24 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		90C54C651EBF596A00D3CE24 /* AlgorithmController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlgorithmController.xib; path = Views/iPhone/AlgorithmController.xib; sourceTree = "<group>"; };
+		90C54C661EBF596A00D3CE24 /* InfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoController.xib; path = Views/iPhone/InfoController.xib; sourceTree = "<group>"; };
+		90C54C671EBF596A00D3CE24 /* MainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainController.xib; path = Views/iPhone/MainController.xib; sourceTree = "<group>"; };
+		90C54C681EBF596A00D3CE24 /* SplashController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashController.xib; path = Views/iPhone/SplashController.xib; sourceTree = "<group>"; };
+		90C54C6D1EBF597600D3CE24 /* AlgorithmController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlgorithmController_iPad.xib; path = Views/iPad/AlgorithmController_iPad.xib; sourceTree = "<group>"; };
+		90C54C6E1EBF597600D3CE24 /* InfoController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoController_iPad.xib; path = Views/iPad/InfoController_iPad.xib; sourceTree = "<group>"; };
+		90C54C6F1EBF597600D3CE24 /* MainController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainController_iPad.xib; path = Views/iPad/MainController_iPad.xib; sourceTree = "<group>"; };
+		90C54C701EBF597600D3CE24 /* SplashController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashController_iPad.xib; path = Views/iPad/SplashController_iPad.xib; sourceTree = "<group>"; };
+		90C54C751EBF599C00D3CE24 /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashController.swift; path = Classes/SplashController.swift; sourceTree = "<group>"; };
+		90C54C791EBF5E0900D3CE24 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Macros.swift; path = Helper/Macros.swift; sourceTree = "<group>"; };
+		90C54C7B1EBF668600D3CE24 /* Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Xib.swift; path = Helper/Xib.swift; sourceTree = "<group>"; };
+		90C54C7D1EBF694E00D3CE24 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Headers/Fonts.swift; sourceTree = "<group>"; };
+		90C54C7F1EBF6B4300D3CE24 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = Classes/MainController.swift; sourceTree = "<group>"; };
+		90C54C811EBF6B5200D3CE24 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoController.swift; path = Classes/InfoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +171,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9095E82E1EB8EAA9000DACF8 /* MessageUI.framework in Frameworks */,
+				9095E8301EB8EAAF000DACF8 /* SystemConfiguration.framework in Frameworks */,
+				9095E8321EB8EABF000DACF8 /* UIKit.framework in Frameworks */,
+				9095E8341EB8EAC5000DACF8 /* QuartzCore.framework in Frameworks */,
+				9095E82C1EB8EAA3000DACF8 /* libxml2.2.tbd in Frameworks */,
+				340F0D171F0969FD8D596A82 /* Pods_EasterDate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		009D1EA80EB820058F92274F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58AAD289C3507099B272C883 /* Pods-EasterDate.debug.xcconfig */,
+				5E374E3660A541C845CEC7ED /* Pods-EasterDate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9095E7851EB8E589000DACF8 = {
 			isa = PBXGroup;
 			children = (
 				9095E7901EB8E589000DACF8 /* EasterDate */,
 				9095E78F1EB8E589000DACF8 /* Products */,
+				9095E82A1EB8EAA2000DACF8 /* Frameworks */,
+				009D1EA80EB820058F92274F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +213,220 @@
 		9095E7901EB8E589000DACF8 /* EasterDate */ = {
 			isa = PBXGroup;
 			children = (
-				9095E7911EB8E589000DACF8 /* AppDelegate.swift */,
-				9095E7931EB8E589000DACF8 /* ViewController.swift */,
-				9095E7951EB8E589000DACF8 /* Main.storyboard */,
+				9095E7AB1EB8E70F000DACF8 /* Assets */,
+				9095E7DA1EB8E74E000DACF8 /* Libraries */,
+				9095E7F91EB8E87E000DACF8 /* Headers */,
+				9095E7FA1EB8E882000DACF8 /* Helper */,
+				9095E7A31EB8E643000DACF8 /* Classes */,
+				9095E7A41EB8E662000DACF8 /* Views */,
+				9095E7FB1EB8E8B7000DACF8 /* Supporting Files */,
 				9095E7981EB8E589000DACF8 /* Assets.xcassets */,
-				9095E79A1EB8E589000DACF8 /* LaunchScreen.storyboard */,
-				9095E79D1EB8E589000DACF8 /* Info.plist */,
+				9095E7EF1EB8E818000DACF8 /* EasterDate-Bridging-Header.h */,
+				9095E7FF1EB8E8FE000DACF8 /* Main.storyboard */,
 			);
 			path = EasterDate;
+			sourceTree = "<group>";
+		};
+		9095E7A31EB8E643000DACF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7A71EB8E6E5000DACF8 /* AppDelegate.swift */,
+				90C54C751EBF599C00D3CE24 /* SplashController.swift */,
+				90C54C7F1EBF6B4300D3CE24 /* MainController.swift */,
+				90C54C811EBF6B5200D3CE24 /* InfoController.swift */,
+				90A38B261EC88E72009F9A61 /* AlgorithmController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9095E7A41EB8E662000DACF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90C54C641EBF595E00D3CE24 /* iPhone */,
+				90C54C631EBF595A00D3CE24 /* iPad */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9095E7AB1EB8E70F000DACF8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7AD1EB8E720000DACF8 /* Icons */,
+				9095E7AC1EB8E715000DACF8 /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9095E7AC1EB8E715000DACF8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7BA1EB8E73C000DACF8 /* back.png */,
+				9095E7BB1EB8E73C000DACF8 /* facebook_badge.png */,
+				9095E7BC1EB8E73C000DACF8 /* facebook_badge@2x.png */,
+				9095E7BD1EB8E73C000DACF8 /* github_badge.png */,
+				9095E7BE1EB8E73C000DACF8 /* github_badge@2x.png */,
+				9095E7BF1EB8E73C000DACF8 /* info.png */,
+				9095E7C01EB8E73C000DACF8 /* info@2x.png */,
+				9095E7C11EB8E73C000DACF8 /* linkedin_badge.png */,
+				9095E7C21EB8E73C000DACF8 /* linkedin_badge@2x.png */,
+				9095E7C31EB8E73C000DACF8 /* mail_badge.png */,
+				9095E7C41EB8E73C000DACF8 /* mail_badge@2x.png */,
+				9095E7C51EB8E73C000DACF8 /* main.png */,
+				9095E7C61EB8E73C000DACF8 /* main@2x.png */,
+				9095E7C71EB8E73C000DACF8 /* skype_badge.png */,
+				9095E7C81EB8E73C000DACF8 /* skype_badge@2x.png */,
+				9095E7C91EB8E73C000DACF8 /* splash.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9095E7AD1EB8E720000DACF8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7AE1EB8E72F000DACF8 /* icon-76.png */,
+				9095E7AF1EB8E72F000DACF8 /* icon-76@2x.png */,
+				9095E7B01EB8E72F000DACF8 /* icon-83.5@2x.png */,
+				9095E7B11EB8E72F000DACF8 /* icon.png */,
+				9095E7B21EB8E72F000DACF8 /* icon@2x.png */,
+				9095E7B31EB8E72F000DACF8 /* icon@3x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9095E7DA1EB8E74E000DACF8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7DE1EB8E789000DACF8 /* CustomLoading */,
+				9095E7DD1EB8E781000DACF8 /* FloatingTextField */,
+				9095E7DC1EB8E769000DACF8 /* KeyboardAvoiding */,
+				9095E7DB1EB8E75D000DACF8 /* KSToastView */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		9095E7DB1EB8E75D000DACF8 /* KSToastView */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7F61EB8E872000DACF8 /* KSToastView.h */,
+				9095E7F71EB8E872000DACF8 /* KSToastView.m */,
+			);
+			name = KSToastView;
+			sourceTree = "<group>";
+		};
+		9095E7DC1EB8E769000DACF8 /* KeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7F01EB8E865000DACF8 /* TPKeyboardAvoidingScrollView.h */,
+				9095E7F11EB8E865000DACF8 /* TPKeyboardAvoidingScrollView.m */,
+				9095E7F21EB8E865000DACF8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				9095E7F31EB8E865000DACF8 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = KeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		9095E7DD1EB8E781000DACF8 /* FloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7EC1EB8E7D1000DACF8 /* ACFloatingTextField.h */,
+				9095E7ED1EB8E7D1000DACF8 /* ACFloatingTextField.m */,
+			);
+			name = FloatingTextField;
+			sourceTree = "<group>";
+		};
+		9095E7DE1EB8E789000DACF8 /* CustomLoading */ = {
+			isa = PBXGroup;
+			children = (
+				9095E7E61EB8E7BF000DACF8 /* DRPLoadingSpinner.h */,
+				9095E7E71EB8E7BF000DACF8 /* DRPLoadingSpinner.m */,
+				9095E7E81EB8E7BF000DACF8 /* DRPRefreshControl.h */,
+				9095E7E91EB8E7BF000DACF8 /* DRPRefreshControl.m */,
+			);
+			name = CustomLoading;
+			sourceTree = "<group>";
+		};
+		9095E7F91EB8E87E000DACF8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				90C54C551EBE14EE00D3CE24 /* Colors.swift */,
+				90C54C571EBE163300D3CE24 /* Constants.swift */,
+				90C54C591EBE170900D3CE24 /* Enums.swift */,
+				90C54C7D1EBF694E00D3CE24 /* Fonts.swift */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		9095E7FA1EB8E882000DACF8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				90C54C791EBF5E0900D3CE24 /* Macros.swift */,
+				9095E8351EB8EDE4000DACF8 /* Utilities.swift */,
+				90C54C7B1EBF668600D3CE24 /* Xib.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		9095E7FB1EB8E8B7000DACF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9095E8021EB8E910000DACF8 /* Fonts */,
+				9095E81B1EB8E926000DACF8 /* Info.plist */,
+				9095E8251EB8E9A3000DACF8 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9095E8021EB8E910000DACF8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9095E8031EB8E91C000DACF8 /* Roboto-Black.ttf */,
+				9095E8041EB8E91C000DACF8 /* Roboto-BlackItalic.ttf */,
+				9095E8051EB8E91C000DACF8 /* Roboto-Bold.ttf */,
+				9095E8061EB8E91C000DACF8 /* Roboto-BoldItalic.ttf */,
+				9095E8071EB8E91C000DACF8 /* Roboto-Italic.ttf */,
+				9095E8081EB8E91C000DACF8 /* Roboto-Light.ttf */,
+				9095E8091EB8E91C000DACF8 /* Roboto-LightItalic.ttf */,
+				9095E80A1EB8E91C000DACF8 /* Roboto-Medium.ttf */,
+				9095E80B1EB8E91C000DACF8 /* Roboto-MediumItalic.ttf */,
+				9095E80C1EB8E91C000DACF8 /* Roboto-Regular.ttf */,
+				9095E80D1EB8E91C000DACF8 /* Roboto-Thin.ttf */,
+				9095E80E1EB8E91C000DACF8 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9095E82A1EB8EAA2000DACF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9095E8331EB8EAC5000DACF8 /* QuartzCore.framework */,
+				9095E8311EB8EABF000DACF8 /* UIKit.framework */,
+				9095E82F1EB8EAAF000DACF8 /* SystemConfiguration.framework */,
+				9095E82D1EB8EAA9000DACF8 /* MessageUI.framework */,
+				9095E82B1EB8EAA3000DACF8 /* libxml2.2.tbd */,
+				15CB18BA735ED2EBCF4AC899 /* Pods_EasterDate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C54C631EBF595A00D3CE24 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				90C54C701EBF597600D3CE24 /* SplashController_iPad.xib */,
+				90C54C6F1EBF597600D3CE24 /* MainController_iPad.xib */,
+				90C54C6E1EBF597600D3CE24 /* InfoController_iPad.xib */,
+				90C54C6D1EBF597600D3CE24 /* AlgorithmController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		90C54C641EBF595E00D3CE24 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				90C54C681EBF596A00D3CE24 /* SplashController.xib */,
+				90C54C671EBF596A00D3CE24 /* MainController.xib */,
+				90C54C661EBF596A00D3CE24 /* InfoController.xib */,
+				90C54C651EBF596A00D3CE24 /* AlgorithmController.xib */,
+			);
+			name = iPhone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +436,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9095E7A01EB8E589000DACF8 /* Build configuration list for PBXNativeTarget "EasterDate" */;
 			buildPhases = (
+				A8805245B488C1EF8DB23371 /* [CP] Check Pods Manifest.lock */,
 				9095E78A1EB8E589000DACF8 /* Sources */,
 				9095E78B1EB8E589000DACF8 /* Frameworks */,
 				9095E78C1EB8E589000DACF8 /* Resources */,
+				1275E4861EDCEB843C43CA37 /* [CP] Embed Pods Frameworks */,
+				49B35EBDB12384768D3B4778 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +465,7 @@
 					9095E78D1EB8E589000DACF8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = TG5CZB48E2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -108,6 +477,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 9095E7851EB8E589000DACF8;
 			productRefGroup = 9095E78F1EB8E589000DACF8 /* Products */;
@@ -124,41 +494,160 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9095E79C1EB8E589000DACF8 /* LaunchScreen.storyboard in Resources */,
+				9095E8151EB8E91C000DACF8 /* Roboto-LightItalic.ttf in Resources */,
+				9095E7CD1EB8E73C000DACF8 /* github_badge.png in Resources */,
+				9095E7CF1EB8E73C000DACF8 /* info.png in Resources */,
+				9095E8141EB8E91C000DACF8 /* Roboto-Light.ttf in Resources */,
+				90C54C6B1EBF596A00D3CE24 /* MainController.xib in Resources */,
+				90C54C721EBF597600D3CE24 /* InfoController_iPad.xib in Resources */,
+				9095E7D41EB8E73C000DACF8 /* mail_badge@2x.png in Resources */,
+				9095E8011EB8E8FE000DACF8 /* Main.storyboard in Resources */,
+				9095E7D31EB8E73C000DACF8 /* mail_badge.png in Resources */,
+				9095E8111EB8E91C000DACF8 /* Roboto-Bold.ttf in Resources */,
+				9095E7B81EB8E72F000DACF8 /* icon@2x.png in Resources */,
 				9095E7991EB8E589000DACF8 /* Assets.xcassets in Resources */,
-				9095E7971EB8E589000DACF8 /* Main.storyboard in Resources */,
+				9095E7CA1EB8E73C000DACF8 /* back.png in Resources */,
+				90C54C691EBF596A00D3CE24 /* AlgorithmController.xib in Resources */,
+				9095E7D11EB8E73C000DACF8 /* linkedin_badge.png in Resources */,
+				9095E8131EB8E91C000DACF8 /* Roboto-Italic.ttf in Resources */,
+				9095E7CC1EB8E73C000DACF8 /* facebook_badge@2x.png in Resources */,
+				9095E8181EB8E91C000DACF8 /* Roboto-Regular.ttf in Resources */,
+				9095E7B91EB8E72F000DACF8 /* icon@3x.png in Resources */,
+				90C54C711EBF597600D3CE24 /* AlgorithmController_iPad.xib in Resources */,
+				9095E7CE1EB8E73C000DACF8 /* github_badge@2x.png in Resources */,
+				9095E8161EB8E91C000DACF8 /* Roboto-Medium.ttf in Resources */,
+				9095E7D21EB8E73C000DACF8 /* linkedin_badge@2x.png in Resources */,
+				9095E7B71EB8E72F000DACF8 /* icon.png in Resources */,
+				9095E81D1EB8E926000DACF8 /* Info.plist in Resources */,
+				9095E7B61EB8E72F000DACF8 /* icon-83.5@2x.png in Resources */,
+				9095E7D61EB8E73C000DACF8 /* main@2x.png in Resources */,
+				9095E7D91EB8E73C000DACF8 /* splash.png in Resources */,
+				90C54C6C1EBF596A00D3CE24 /* SplashController.xib in Resources */,
+				9095E7CB1EB8E73C000DACF8 /* facebook_badge.png in Resources */,
+				9095E81A1EB8E91C000DACF8 /* Roboto-ThinItalic.ttf in Resources */,
+				9095E7D51EB8E73C000DACF8 /* main.png in Resources */,
+				9095E8101EB8E91C000DACF8 /* Roboto-BlackItalic.ttf in Resources */,
+				9095E7D01EB8E73C000DACF8 /* info@2x.png in Resources */,
+				9095E7B51EB8E72F000DACF8 /* icon-76@2x.png in Resources */,
+				9095E8191EB8E91C000DACF8 /* Roboto-Thin.ttf in Resources */,
+				9095E7D71EB8E73C000DACF8 /* skype_badge.png in Resources */,
+				9095E80F1EB8E91C000DACF8 /* Roboto-Black.ttf in Resources */,
+				9095E7D81EB8E73C000DACF8 /* skype_badge@2x.png in Resources */,
+				90C54C6A1EBF596A00D3CE24 /* InfoController.xib in Resources */,
+				9095E8121EB8E91C000DACF8 /* Roboto-BoldItalic.ttf in Resources */,
+				9095E8231EB8E9A3000DACF8 /* Localizable.strings in Resources */,
+				90C54C741EBF597600D3CE24 /* SplashController_iPad.xib in Resources */,
+				90C54C731EBF597600D3CE24 /* MainController_iPad.xib in Resources */,
+				9095E8171EB8E91C000DACF8 /* Roboto-MediumItalic.ttf in Resources */,
+				9095E7B41EB8E72F000DACF8 /* icon-76.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1275E4861EDCEB843C43CA37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasterDate/Pods-EasterDate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B35EBDB12384768D3B4778 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasterDate/Pods-EasterDate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8805245B488C1EF8DB23371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9095E78A1EB8E589000DACF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9095E7941EB8E589000DACF8 /* ViewController.swift in Sources */,
-				9095E7921EB8E589000DACF8 /* AppDelegate.swift in Sources */,
+				9095E7EB1EB8E7BF000DACF8 /* DRPRefreshControl.m in Sources */,
+				90A38B271EC88E72009F9A61 /* AlgorithmController.swift in Sources */,
+				90C54C7E1EBF694E00D3CE24 /* Fonts.swift in Sources */,
+				90C54C581EBE163300D3CE24 /* Constants.swift in Sources */,
+				90C54C821EBF6B5200D3CE24 /* InfoController.swift in Sources */,
+				90C54C561EBE14EE00D3CE24 /* Colors.swift in Sources */,
+				90C54C7C1EBF668600D3CE24 /* Xib.swift in Sources */,
+				9095E7EA1EB8E7BF000DACF8 /* DRPLoadingSpinner.m in Sources */,
+				90C54C761EBF599C00D3CE24 /* SplashController.swift in Sources */,
+				9095E7F51EB8E865000DACF8 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				90C54C801EBF6B4300D3CE24 /* MainController.swift in Sources */,
+				9095E7F81EB8E872000DACF8 /* KSToastView.m in Sources */,
+				9095E7F41EB8E865000DACF8 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				9095E8361EB8EDE4000DACF8 /* Utilities.swift in Sources */,
+				9095E7EE1EB8E7D1000DACF8 /* ACFloatingTextField.m in Sources */,
+				90C54C7A1EBF5E0900D3CE24 /* Macros.swift in Sources */,
+				90C54C5A1EBE170900D3CE24 /* Enums.swift in Sources */,
+				9095E7A91EB8E6E5000DACF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9095E7951EB8E589000DACF8 /* Main.storyboard */ = {
+		9095E7FF1EB8E8FE000DACF8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9095E7961EB8E589000DACF8 /* Base */,
+				9095E8001EB8E8FE000DACF8 /* Base */,
+				9095E8201EB8E972000DACF8 /* en */,
+				9095E8271EB8E9C5000DACF8 /* it */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9095E79A1EB8E589000DACF8 /* LaunchScreen.storyboard */ = {
+		9095E81B1EB8E926000DACF8 /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9095E79B1EB8E589000DACF8 /* Base */,
+				9095E81C1EB8E926000DACF8 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		9095E8251EB8E9A3000DACF8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9095E8241EB8E9A3000DACF8 /* Base */,
+				9095E8261EB8E9A5000DACF8 /* en */,
+				9095E8291EB8E9C6000DACF8 /* it */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -168,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -204,7 +694,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -218,6 +708,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -248,7 +739,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,27 +750,56 @@
 		};
 		9095E7A11EB8E589000DACF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58AAD289C3507099B272C883 /* Pods-EasterDate.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Francesco Ceglie (SX3N6FNN99)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TG5CZB48E2;
-				INFOPLIST_FILE = EasterDate/Info.plist;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/share/include/libxml2,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = /Users/eustachiomaselli/Desktop/Personale/iOS/Swift/EasterDate/EasterDate/Base.lproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.maseus.EasterDate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/eustachiomaselli/Desktop/Personale/iOS/Swift/EasterDate/EasterDate/EasterDate-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
 		9095E7A21EB8E589000DACF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E374E3660A541C845CEC7ED /* Pods-EasterDate.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Bewons Company S.r.l. (TG5CZB48E2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TG5CZB48E2;
-				INFOPLIST_FILE = EasterDate/Info.plist;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/share/include/libxml2,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = /Users/eustachiomaselli/Desktop/Personale/iOS/Swift/EasterDate/EasterDate/Base.lproj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.maseus.EasterDate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/eustachiomaselli/Desktop/Personale/iOS/Swift/EasterDate/EasterDate/EasterDate-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
@@ -302,6 +822,7 @@
 				9095E7A21EB8E589000DACF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

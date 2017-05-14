@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  EasterDate
+
+  Created by Eustachio Maselli on 02/05/17.
+  Copyright © 2017 Eustachio Maselli. All rights reserved.
+*/
+
+"AppName" = "EasterDate";
+"MainTitle" = "Specifica un anno tra il 34 d.C. ed il 2499 d.C.";
+"YearHint" = "Anno";
+"ComputeButton" = "CALCOLA";
+"EasterDay" = "Giorno di Pasqua";
+"Date1" = "%d Marzo";
+"Date2" = "%d Aprile";
+"InfoDesc" = "Applicazione dell'algoritmo di Gauss per il calcolo della data della Pasqua cristiana.";
+"VersionTitle" = "VERSIONE";
+"VersionNumber" = "1.0.0";
+"AuthorTitle" = "AUTORE";
+"AuthorText" = "Eustachio Maselli, ingegnere informatico e senior mobile application developer.";
+"AlgorithmLink" = "PAGINA WIKIPEDIA DELL'ALGORITMO DI GAUSS";
+"AlgorithmTitle" = "Algoritmo di Gauss";
+"WikipediaPage" = "https://it.m.wikipedia.org/wiki/Calcolo_della_Pasqua#Metodo_aritmetico_di_Gauss";
+"Exception1" = "26 Aprile";
+"Exception2" = "25 Aprile";
+"NoNetworkAlert" = "Verifica la connessione di Rete!";
+"WrongYearAlert" = "Specifica un anno nell'intervallo indicato!";
+"NoSupportAlert" = "Servizio non disponibile!";
+"MailCancelledAlert" = "Invio annullato";
+"MailSavedAlert" = "Bozza salvata";
+"MailSentAlert" = "Mail inviata!";
+"MailErrorAlert" = "Errore nell'invio dell'e-mail!";
