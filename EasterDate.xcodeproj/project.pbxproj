@@ -77,6 +77,7 @@
 		90C54C7E1EBF694E00D3CE24 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C7D1EBF694E00D3CE24 /* Fonts.swift */; };
 		90C54C801EBF6B4300D3CE24 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C7F1EBF6B4300D3CE24 /* MainController.swift */; };
 		90C54C821EBF6B5200D3CE24 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C54C811EBF6B5200D3CE24 /* InfoController.swift */; };
+		90FD03FF1EC8C78F0086DDBF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FD03FE1EC8C78F0086DDBF /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -164,6 +165,7 @@
 		90C54C7D1EBF694E00D3CE24 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Headers/Fonts.swift; sourceTree = "<group>"; };
 		90C54C7F1EBF6B4300D3CE24 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = Classes/MainController.swift; sourceTree = "<group>"; };
 		90C54C811EBF6B5200D3CE24 /* InfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoController.swift; path = Classes/InfoController.swift; sourceTree = "<group>"; };
+		90FD03FE1EC8C78F0086DDBF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 		9095E7901EB8E589000DACF8 /* EasterDate */ = {
 			isa = PBXGroup;
 			children = (
+				90FD03FE1EC8C78F0086DDBF /* Default-568h@2x.png */,
 				9095E7AB1EB8E70F000DACF8 /* Assets */,
 				9095E7DA1EB8E74E000DACF8 /* Libraries */,
 				9095E7F91EB8E87E000DACF8 /* Headers */,
@@ -523,6 +526,7 @@
 				9095E7D61EB8E73C000DACF8 /* main@2x.png in Resources */,
 				9095E7D91EB8E73C000DACF8 /* splash.png in Resources */,
 				90C54C6C1EBF596A00D3CE24 /* SplashController.xib in Resources */,
+				90FD03FF1EC8C78F0086DDBF /* Default-568h@2x.png in Resources */,
 				9095E7CB1EB8E73C000DACF8 /* facebook_badge.png in Resources */,
 				9095E81A1EB8E91C000DACF8 /* Roboto-ThinItalic.ttf in Resources */,
 				9095E7D51EB8E73C000DACF8 /* main.png in Resources */,
