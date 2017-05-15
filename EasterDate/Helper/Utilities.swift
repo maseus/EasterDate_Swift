@@ -2,7 +2,7 @@
  @file Utilities.swift
  @brief Classe per la gestione di operazioni di comune utilità.
  @author Eustachio Maselli
- @copyright © 2017 Bewons Company S.r.l. All rights reserved.
+ @copyright © 2017 Eustachio Maselli All rights reserved.
  */
 
 import UIKit

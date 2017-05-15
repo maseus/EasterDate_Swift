@@ -46,5 +46,5 @@ let IPAD_PRO_WIDTH = 1024.0
 /** @brief Altezza di riferimento per dispositivo iPad 12.9 inch. */
 let IPAD_PRO_HEIGHT = 1366.0
 
-/** @brief Parametr0 per il posizionamento delle Tab. */
+/** @brief Parametro per il posizionamento delle Tab. */
 let TAB_INSETS = UIEdgeInsetsMake(2.0, 0.0, -2.0, 0.0)
